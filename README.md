@@ -33,7 +33,7 @@
     <img align="center" width="49%" src="./stars.svg" />
 </a>
 
-<a href="https://github.com/paris-ci?tab=following">
+<a align="center" href="https://github.com/paris-ci?tab=following">
     <img align="center" width="60%" src="./people.svg" />
 </a>
 
