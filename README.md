@@ -34,7 +34,7 @@
 </a>
 
 <a href="https://github.com/paris-ci?tab=following">
-    <img align="center" width="99%" src="./people.svg" />
+    <img align="center" width="60%" src="./people.svg" />
 </a>
 
 
