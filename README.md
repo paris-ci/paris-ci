@@ -26,4 +26,16 @@
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
 
+<a href="https://github.com/paris-ci">
+    <img align="center" width="49%" src="./topics.svg" />
+</a>
+<a href="https://github.com/paris-ci">
+    <img align="center" width="49%" src="./stars.svg" />
+</a>
+
+<a href="https://github.com/paris-ci">
+    <img align="center" width="100%" src="./people.svg" />
+</a>
+
+
 :)
