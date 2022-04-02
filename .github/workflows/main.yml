@@ -22,6 +22,50 @@ jobs:
           plugin_achievements_secrets: yes      # Display unlocked secrets achievements
           plugin_achievements_display: compact  # Use compact display
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
+  
+  topics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: topics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: paris-ci
+          base: ""
+          # https://github.com/lowlighter/metrics/blob/master/source/plugins/topics/README.md
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars 
+
+  stars:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: paris-ci
+          base: ""
+          # https://github.com/lowlighter/metrics/blob/master/source/plugins/stars/README.md
+          plugin_stars: yes
+          
+  people:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: people.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: paris-ci
+          base: ""
+          # https://github.com/lowlighter/metrics/blob/master/source/plugins/people/README.md
+          plugin_people: yes  
+          plugin_people_limit: 42
+          plugin_people_types: followers,following,sponsors,sponsored
+  
 
   github-metrics:
     runs-on: ubuntu-latest
