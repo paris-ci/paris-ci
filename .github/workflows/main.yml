@@ -64,7 +64,7 @@ jobs:
           base: ""
           # https://github.com/lowlighter/metrics/blob/master/source/plugins/people/README.md
           plugin_people: yes  
-          plugin_people_limit: 200
+          plugin_people_limit: 0
           plugin_people_size: 14
           plugin_people_types: followers,following
   
