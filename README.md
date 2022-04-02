@@ -1,3 +1,27 @@
 ### Hi there 👋
 
-<img src="/github-metrics.svg" alt="Metrics" width="100%">
+<a href="https://github.com/esatterwhite">
+  <img align="center" width="49%" src="./header.svg" />
+</a>
+<br/>
+<a href="https://github.com/esatterwhite">
+  <img align="center" width="49%" src="./repositories.svg" />
+</a>
+<a href="https://github.com/esatterwhite">
+  <img align="center" width="49%" src="./acti_comm.svg" />
+</a>
+
+<a href="https://github.com/esatterwhite">
+  <img align="center" width="49%" src="./iso_calender.svg" />
+</a>
+
+<a href="https://github.com/esatterwhite">
+    <img align="center" width="49%" src="./issue_pr_lang.svg" />
+</a>
+
+<a href="https://github.com/esatterwhite">
+  <img align="center" width="49%" src="./github-habits.svg" />
+</a>
+<a href="https://github.com/esatterwhite">
+    <img align="center" width="49%" src="./achievements.svg" />
+</a>
