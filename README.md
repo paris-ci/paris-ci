@@ -25,3 +25,5 @@
 <a href="https://github.com/paris-ci">
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
+
+:)
