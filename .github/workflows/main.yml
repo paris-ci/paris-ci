@@ -14,6 +14,8 @@ jobs:
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: paris-ci
           base: achievements
@@ -30,6 +32,8 @@ jobs:
         with:
           filename: topics.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: paris-ci
           base: ""
@@ -46,6 +50,8 @@ jobs:
         with:
           filename: stars.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: paris-ci
           base: ""
@@ -59,6 +65,8 @@ jobs:
         with:
           filename: people.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: paris-ci
           base: ""
@@ -77,6 +85,8 @@ jobs:
           filename: header.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -92,6 +102,8 @@ jobs:
         with:
           filename: lines-of-code.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: "repositories"
           plugin_lines: yes
@@ -104,6 +116,8 @@ jobs:
           filename: acti_comm.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -121,6 +135,8 @@ jobs:
           filename: iso_calender.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -139,6 +155,8 @@ jobs:
         with:
           filename: github-habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
           user: paris-ci
@@ -158,6 +176,8 @@ jobs:
           filename: issue_pr_lang.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -176,9 +196,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: repositories.svg
-          # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
