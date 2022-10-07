@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>django-hijack/django-hijack</span>
-                                        <span>starred 1 day ago</span>
+                                        <span><b>starred 1 day ago</b></span>
                                     </div>
                                 </div>
                                 <div class="field description">With Django Hijack, admins can log in and work on behalf of other users without having to know their credentials.</div>
