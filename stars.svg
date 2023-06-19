@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="395" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="428" class="">
     <defs>
         <style/>
     </defs>
@@ -185,7 +185,7 @@
                                         <span>starred 11 days ago</span>
                                     </div>
                                 </div>
-                                <div class="field description">iCloud3 v2 iDevice Tracker - An advanced device tracker for iPhones, iPads, etc. that monitors HA zone &amp; location updates</div>
+                                <div class="field description">iCloud3 v2 is an advanced iDevice tracker that reports location and other information from your Apple iCloud account and the HA Companion App that can be used for presence detection and location based automation activities.</div>
                                 <div class="field infos">
                                     <div class="language">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
