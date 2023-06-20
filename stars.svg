@@ -185,7 +185,7 @@
                                         <span>starred 11 days ago</span>
                                     </div>
                                 </div>
-                                <div class="field description">iCloud3 v2 is an advanced iDevice tracker using Apple iCloud account and HA Companion App data for presence detection and location based automations.</div>
+                                <div class="field description">iCloud3 v2 is an advanced iDevice tracker that uses Apple iCloud account and HA Companion App data for presence detection and location based automations.</div>
                                 <div class="field infos">
                                     <div class="language">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
